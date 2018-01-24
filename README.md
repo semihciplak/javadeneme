@@ -1,0 +1,2 @@
+# javadeneme
+Java denemeleri yapıyorum
