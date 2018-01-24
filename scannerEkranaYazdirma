@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class Scannerinput {
+
+    public static void main(String []  args){
+
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.print("Birşeyler yazın:");
+        String yazi = scanner.nextLine ();
+
+        System.out.println("Yazdığın budur: " + yazi);
+
+        //System.out.println("Ondalık değerli bir sayı yazınız: ");
+        //float deger= scanner.nextFloat();
+
+        //System.out.println(deger);
+
+        //System.out.println("Doble bir değer giriniz: ");
+        //double degerd = scanner.nextDouble();
+
+        //System.out.println(degerd);
+
+        //System.out.println("Lütfen bir sayı giriniz:");
+        //int sayılar = scanner.nextInt();
+
+        //System.out.println("Sayınız "+sayılar+ "'dır");
+
+        //System.out.print("Birinci sayınızı giriniz: ");
+        //int sayı1 = scanner.nextInt();
+        //System.out.print("İkinci sayınızı giriniz: ");
+        //int sayı2 = scanner.nextInt();
+
+        //System.out.print("Sayıların toplamı "+ (sayı1+sayı2)+"'dır");
+
+
+        System.out.print("Toplama işlemi için iki sayı giriniz : ");
+        int sayı1 = scanner.nextInt();  //İkinci sayıyı boşluk tuşuna basarakta yazabiliriz.
+        int sayı2 = scanner.nextInt();
+
+        System.out.print("Sayıların toplamı "+ (sayı1+sayı2)+"'dır");
+
+
+
+
+        /*System.out.print("Yaşınızı Giriniz; ");
+        int yas = scanner.nextInt();
+        scanner.nextLine(); //Dummy (Salakça input alma)
+        System.out.print("İsminizi giriniz: ");
+        String isim = scanner.nextLine();
+
+        System.out.println(yas);
+        System.out.print(isim);*/
+
+
+
+
+    }
+
+
+}
